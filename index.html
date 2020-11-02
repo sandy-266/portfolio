@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <title>Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&family=Open+Sans+Condensed:ital,wght@1,300&family=Syne+Mono&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="bgimg">
+    <div class="middle">
+      <h1>WELCOME TO MY PORTFOLIO</h1>
+      <hr>
+      <p>Let's get started</p>
+      <a href="#intro"><i class="fa fa-arrow-circle-down" style="color: white;"aria-hidden="true"></i></a>
+    </div>
+  </div>
+  <button onclick="topFunction()" id="myBtn" title="Go to top"><i class="fa fa-arrow-circle-up" aria-hidden="true"></i></button>
+  <div id="navbar">
+      <nav >
+        <a href="#intro" id="title">{_Sai Sandesh_}</a>
+        <a href="#about">About</a>
+        <a href="#education">Education</a>
+        <a href="#projects">Projects</a>
+        <a href="#form">Contact Me</a>
+      </nav>
+  </div>
+      <div class="intro" id="intro">
+        <p>I am Sai Sandesh</p>
+        <p id="typewriter"></p>
+      </div>
+      <h2 id="about" style="text-align: center;">About Me</h2>
+      <section class="row">
+       <article class="column" >
+         <img src="./images/myself.JPG" alt="profile">
+        <p style="font-size: 15px; font-weight: inherit;">
+          I am a full stack web developer originated from Rayagada, Odisha. I am also learning more about the full stack 
+          web development from Techbairn. I am currently pursuing my Bachelors in Electronics and Computer Science Engineering
+          from KiiT University from 2018. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odio sit illum ducimus dicta
+          voluptatem beatae enim minus odit inventore? Repellendus repudiandae laudantium vero fugiat ad possimus ipsam omnis quo! Harum.
+        </p>
+      </article>
+       <article class="column" id="skills" >
+        <h3>Tools I use Frequently</h3>
+        <ul>
+          <li>
+            <span>HTML5</span><span class="right">jQuery</span>
+         </li>
+         <li>
+             <span>CSS3</span><span class="right">Git</span>
+         </li>
+         <li>
+             <span>javascript</span><span class="right">Node js</span>
+         </li>
+         <li>
+             <span>Bootstrap</span><span class="right">MongoDb</span>
+         </li>
+        </ul>
+      </article>  
+    </section>
+      <hr>
+      <div>
+        <h2 id="education" style="text-align: center;">Education</h2>
+        <table id="customers">
+          <tr>
+            <th>Level</th>
+            <th>Institution</th>
+            <th>Percentage </th>
+          </tr>
+          <tr>
+            <td>Undergraduation</td>
+            <td>Kalinga Institute of Industrial Technology, Bhubaneswar</td>
+            <td>8.30</td>
+          </tr>
+          <tr>
+            <td style="color: ivory;">Intermediate</td>
+            <td style="color: ivory;">Sri Chaitanya Educational Institution, Vijayawada</td>
+            <td style="color: ivory;">96%</td>
+          </tr>
+          <tr>
+            <td>Matriculation</td>
+            <td>Vijnana Vihara Residential School, Gudilova</td>
+            <td>9.6</td>
+          </tr>
+        </table>
+      </div>
+      <section id="projects" class="main-section">
+        <h2>Projects</h2>
+        <div id="projects-content">
+            <a href="https://codepen.io/FreeCodeCamp/pen/NNvBQW" class="project-tile"><img
+                    src="https://cloud.githubusercontent.com/assets/15967809/17642794/d084d718-6171-11e6-83fa-ede5d0a67ad2.png"
+                    alt="tribute page preview">
+                Tribute page</a>
+            <a href="https://codepen.io/FreeCodeCamp/pen/ONjoLe" class="project-tile"><img
+                    src="https://cloud.githubusercontent.com/assets/15967809/17642771/7cd6a0c4-6171-11e6-87fb-915f6084d104.png"
+                    alt="random quote machine preview">Random quote machine</a>
+            <a href="https://codepen.io/FreeCodeCamp/pen/PNKdjo" class="project-tile"><img
+                    src="https://cloud.githubusercontent.com/assets/15967809/17642772/7d02406c-6171-11e6-8c79-40a2933163dc.png"
+                    alt="javascript calculator preview">JavaScript calculator</a>
+            <a href="https://codepen.io/FreeCodeCamp/pen/mVEJag" class="project-tile"><img
+                    src="https://cloud.githubusercontent.com/assets/15967809/17642773/7d08cb94-6171-11e6-8c45-22e7cf64683e.png"
+                    alt="map data across the globe preview">Map data across the globe</a>
+            <a href="https://codepen.io/FreeCodeCamp/pen/wGqEga" class="project-tile"><img
+                    src="https://cloud.githubusercontent.com/assets/15967809/17642774/7d091806-6171-11e6-8d47-ecf2f2833fe2.png"
+                    alt="wikipedia viewer preview">Wikipedia viewer</a>
+            <a href="https://codepen.io/FreeCodeCamp/pen/KzXQgy" class="project-tile"><img
+                    src="https://cloud.githubusercontent.com/assets/15967809/17642775/7d354304-6171-11e6-8b56-66eee4681d88.png"
+                    alt="tic tac toe game preview">Tic Tac Toe game</a>
+        </div>
+        <a href="https://github.com/sandy-266" target="_blank" id="show-all">show all</a>
+    </section>
+    <hr>
+    <section id="form">
+      <h2 style="text-align: center;">Contact Me</h2>
+      <form action="">
+        <label for="name">Name:</label>
+        <input type="text" name="" id="name" placeholder="Enter Your Name"><br>
+        <label for="email">Email Id:</label>
+        <input type="email" id="email" placeholder="Enter your Email"><br>
+        <label for="mobile">Mobile No.:</label>
+        <input type="number" id="mobile" maxlength="10" placeholder="Enter your mobile no"><br>
+        <label for="reason">Reason for Contact</label>
+        <textarea name="" id="reason" cols="30" rows="10"></textarea><br>
+        <button id="submit">Submit</button>
+      </form>
+    </section>
+      <section id="contacts">
+        <h2 style="color: black;">Let's Work Together</h2>
+        <p style="color: black;">How do you take your coffee?</p>
+        <div id="contacts-content">
+            <div id="fcbk"><a href="https://facebook.com/freecodecamp" target="_blank"><i class="fab fa-facebook-square icons"></i></a></div>
+            <div id="github"><a href="https://github.com/freecodecamp" target="_blank" id="profile-link"><i class="fab fa-github-square icons"></i></a>
+            </div>
+            <div id="twitter"><a href="https://twitter.com/freecodecamp" target="_blank"><i class="fab fa-twitter-square icons"></i></a></div>
+            <div id="email"><a href="mailto:psaisandesh266@gmail.com" target="_blank"><i class="fas fa-envelope-open-text icons"></i></a></div>
+            <div id="tel"><a href="tel:555-555-5555" target="_blank"><i class="fas fa-phone-square-alt icons"></i></a></div>
+        </div>
+      </section>
+      <footer>
+        <p class="footer"><em>**This is just a fake portfolio.. All the projects and contact details given are not real..</em></p>
+        <p class="footer">© Copyright</p>
+    </footer>
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+    <script src="index.js"></script>
+</body>
+</html>
